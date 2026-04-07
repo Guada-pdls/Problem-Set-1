@@ -1,5 +1,6 @@
 package ucu.edu.aed.tda;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.function.Predicate;
 
@@ -15,7 +16,6 @@ import java.util.function.Predicate;
  * @param <T> el tipo de los elementos almacenados en la lista
  */
 public interface TDALista<T> {
-
     /**
      * Agrega un elemento al final de la lista.
      *
