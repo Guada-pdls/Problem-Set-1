@@ -1,4 +1,4 @@
-package ucu.edu.aed;
+package ucu.edu.aed.biblioteca;
 
 public class Prestamo {
     private Libro libroAPrestar;

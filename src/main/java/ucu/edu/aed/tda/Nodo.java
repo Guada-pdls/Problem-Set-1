@@ -1,10 +1,10 @@
 package ucu.edu.aed.tda;
 
-public class TDANodo<T> {
+public class Nodo<T> {
     protected T valor;
-    protected TDANodo<T> siguiente;
+    protected Nodo<T> siguiente;
 
-    public TDANodo(T valor) {
+    public Nodo(T valor) {
         this.valor = valor;
     }
 
@@ -16,11 +16,11 @@ public class TDANodo<T> {
         this.valor = valor;
     }
 
-    public TDANodo<T> getSiguiente() {
+    public Nodo<T> getSiguiente() {
         return siguiente;
     }
 
-    public void setSiguiente(TDANodo<T> siguiente) {
+    public void setSiguiente(Nodo<T> siguiente) {
         this.siguiente = siguiente;
     }
 }

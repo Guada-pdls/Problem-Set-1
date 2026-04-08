@@ -1,4 +1,4 @@
-package ucu.edu.aed;
+package ucu.edu.aed.biblioteca;
 
 import ucu.edu.aed.tda.ListaEnlazada;
 

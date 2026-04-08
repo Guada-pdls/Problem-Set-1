@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.function.Predicate;
 
 public class ListaEnlazada<T> implements TDALista<T> {
-    protected TDANodo<T> primero;
+    protected Nodo<T> primero;
 
     @Override
     public void agregar(int index, T elem) {
@@ -22,19 +22,19 @@ public class ListaEnlazada<T> implements TDALista<T> {
     }
 
     @Override
-    public boolean remover(T elem) {
-        if (primero==null){
+    public boolean remover(T elem) { // Quita el elemento de la lista pero lo deja disponible para su posterior utilizacion
+        if (primero==null){ // Si esta vacia
             return false;
         }
 
-        if (primero.getValor().equals(elem)){
-            primero=primero.getSiguiente();
+        if (primero.getValor().equals(elem)){ // si el primer valor es igual al elemento a buscar
+            primero=primero.getSiguiente(); // lo elimino de la lista
             return true;
         }
-        TDANodo<T> actual=primero;
-        while (actual.getSiguiente() !=null){
-            if (actual.getSiguiente().getValor().equals(elem)){
-                actual.setSiguiente(actual.getSiguiente().getSiguiente());
+        Nodo<T> actual=primero; // sino
+                while (actual.getSiguiente() !=null){ // mientras el siguiente al actual no sea nulo
+                    if (actual.getSiguiente().getValor().equals(elem)){ // verifico si el sig es igual al elemento a remover
+                        actual.setSiguiente(actual.getSiguiente().getSiguiente()); // le quito la ref 
                 return true;
             }
             actual=actual.getSiguiente();
@@ -55,7 +55,7 @@ public class ListaEnlazada<T> implements TDALista<T> {
 
     @Override
     public T buscar(Predicate<T> criterio) {
-        TDANodo<T> actual=primero;
+        Nodo<T> actual=primero;
         while (actual!=null){
             if (criterio.test(actual.getValor())){
                 return actual.getValor();
@@ -73,7 +73,7 @@ public class ListaEnlazada<T> implements TDALista<T> {
     @Override
     public int tamaño() {
         int contador=0;
-        TDANodo<T> actual=primero;
+        Nodo<T> actual=primero;
         while (actual !=null){
             contador++;
             actual=actual.getSiguiente();
@@ -93,7 +93,7 @@ public class ListaEnlazada<T> implements TDALista<T> {
 
     @Override
     public void agregar(T elem) {
-        TDANodo<T> nuevoNodo = new TDANodo<T>(elem);
+        Nodo<T> nuevoNodo = new Nodo<T>(elem);
         nuevoNodo.setSiguiente(primero);
         primero = nuevoNodo;
     }

@@ -1,5 +1,7 @@
 package ucu.edu.aed;
 
+import ucu.edu.aed.biblioteca.Libro;
+
 public class Nodo {
     Libro dato;
     Nodo siguiente;

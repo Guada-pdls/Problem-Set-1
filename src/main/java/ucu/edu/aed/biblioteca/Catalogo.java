@@ -1,12 +1,9 @@
-package ucu.edu.aed;
+package ucu.edu.aed.biblioteca;
 import ucu.edu.aed.tda.ListaEnlazada;
-import ucu.edu.aed.tda.TDANodo;
-
-import java.util.Objects;
-import java.util.function.Predicate;
+import ucu.edu.aed.tda.Nodo;
 
 public class Catalogo extends ListaEnlazada<Libro> {
-    protected TDANodo<Libro> primero;
+    protected Nodo<Libro> primero;
 
     public void agregarExistencias(Libro libro, int cantidad) {
         libro.setCantEjemplares(libro.getCantEjemplares() + cantidad);
