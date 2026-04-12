@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e176e6e-8ed1-4b48-b660-092eb19a9243" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/Conjunto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ucu/edu/aed/ConjuntoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/ListaEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/ListaEnlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/ListaEnlazada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/ListaEnlazada.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nairethbarrios&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Guada-pdls/Problem-Set-1&quot;,
+    &quot;accountId&quot;: &quot;0d87df46-4810-49ab-bd12-4e6b2a0dc942&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3BSH4xGamXMmTjGfUHNVFr7hTvS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ConjuntoTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Ejercicio-24",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e176e6e-8ed1-4b48-b660-092eb19a9243" name="Changes" comment="" />
+      <created>1774475422796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774475422796</updated>
+      <workItem from="1774475423378" duration="447000" />
+      <workItem from="1774479100994" duration="1387000" />
+      <workItem from="1774482266325" duration="963000" />
+      <workItem from="1775684164975" duration="175000" />
+      <workItem from="1775684897127" duration="105000" />
+      <workItem from="1775685250269" duration="4057000" />
+      <workItem from="1775773111685" duration="50000" />
+      <workItem from="1775943690707" duration="10177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

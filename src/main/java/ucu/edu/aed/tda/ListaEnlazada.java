@@ -13,7 +13,16 @@ public class ListaEnlazada<T> implements TDALista<T> {
 
     @Override
     public T obtener(int index) {
-        return null;
+        Nodo<T> actual = primero;
+        int i = 0;
+        while (actual != null) {
+            if (i == index) {
+                return actual.getValor();
+            }
+            actual = actual.getSiguiente();
+            i++;
+        }
+        throw new IndexOutOfBoundsException();
     }
 
     @Override
@@ -45,12 +54,28 @@ public class ListaEnlazada<T> implements TDALista<T> {
 
     @Override
     public boolean contiene(T elem) {
+        Nodo<T> actual = primero;
+        while (actual != null) {
+            if (actual.getValor().equals(elem)) {
+                return true;
+            }
+            actual = actual.getSiguiente();
+        }
         return false;
     }
 
     @Override
     public int indiceDe(T elem) {
-        return 0;
+        Nodo<T> actual = primero;
+        int i = 0;
+        while (actual != null) {
+            if (actual.getValor().equals(elem)) {
+                return i;
+            }
+            actual = actual.getSiguiente();
+            i++;
+        }
+        return -1;
     }
 
     @Override
@@ -83,12 +108,12 @@ public class ListaEnlazada<T> implements TDALista<T> {
 
     @Override
     public boolean esVacio() {
-        return false;
+        return primero == null;
     }
 
     @Override
     public void vaciar() {
-
+        primero = null;
     }
 
     @Override
