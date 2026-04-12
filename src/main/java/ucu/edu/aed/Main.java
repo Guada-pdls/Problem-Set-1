@@ -7,6 +7,6 @@ import java.util.Scanner;
 
 public class Main {
     public void guardarAdquisiciones() {
-        FileUtils.leerLineas("./adquisiciones.txt");
+        // FileUtils.leerLineas("./adquisiciones.txt");
     }
 }
