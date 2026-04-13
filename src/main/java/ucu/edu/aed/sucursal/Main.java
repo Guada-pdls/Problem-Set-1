@@ -1,16 +1,25 @@
 package ucu.edu.aed.sucursal;
-
-import java.util.LinkedList;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Main {
-    LinkedList<Sucursal> sucursales = new LinkedList<>();
-    int contador = 0;
 
-    public void main(String[] args) {
-        // FileUtils.leerLineas("archivo.txt", linea -> {
-        //    contador++;
-        //    sucursales.add(new Sucursal(contador, linea));
-        //});
+    public static void main(String[] args) {
+        Sucursal sucursales = new Sucursal();
+        try (BufferedReader br = new BufferedReader(new FileReader("sucursales.txt"))) {
+
+            String linea;
+
+            while ((linea = br.readLine()) != null) {
+                sucursales.agregar(linea);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        sucursales.listar();
+        sucursales.cantSucursales(sucursales);
     }
-
 }

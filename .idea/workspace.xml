@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e176e6e-8ed1-4b48-b660-092eb19a9243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/Conjunto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ucu/edu/aed/ConjuntoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sucursales.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Sucursal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/ListaEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/ListaEnlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/TDALista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/TDALista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Sucursal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Sucursal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/ListaEnlazada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/ListaEnlazada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/TDALista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/TDALista.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,10 @@
     &quot;accountId&quot;: &quot;0d87df46-4810-49ab-bd12-4e6b2a0dc942&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -59,19 +63,30 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Ejercicio-24",
+    "git-widget-placeholder": "Ej23Joaquin",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repositorios\Problem-Set-1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +105,7 @@
       <workItem from="1775685250269" duration="4057000" />
       <workItem from="1775773111685" duration="50000" />
       <workItem from="1775943690707" duration="10177000" />
+      <workItem from="1776102755778" duration="6878000" />
     </task>
     <servers />
   </component>

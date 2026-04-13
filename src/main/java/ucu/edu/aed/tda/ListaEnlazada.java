@@ -7,8 +7,7 @@ public class ListaEnlazada<T> implements TDALista<T> {
     protected Nodo<T> primero;
 
     @Override
-    public void agregar(int index, T elem) {
-
+    public void agregarConIndice(int index, T elem) {
     }
 
     @Override
@@ -31,7 +30,7 @@ public class ListaEnlazada<T> implements TDALista<T> {
     }
 
     @Override
-    public boolean remover(T elem) { // Quita el elemento de la lista pero lo deja disponible para su posterior utilizacion
+    public boolean remover(T elem) { // Quita el elemento de la lista, pero lo deja disponible para su posterior utilizacion
         if (primero==null){ // Si esta vacia
             return false;
         }
@@ -121,5 +120,13 @@ public class ListaEnlazada<T> implements TDALista<T> {
         Nodo<T> nuevoNodo = new Nodo<T>(elem);
         nuevoNodo.setSiguiente(primero);
         primero = nuevoNodo;
+    }
+
+    public void listar() {
+        Nodo<T> actual=primero;
+        while (actual!=null) {
+            System.out.println(actual.getValor());
+            actual = actual.getSiguiente();
+        }
     }
 }
