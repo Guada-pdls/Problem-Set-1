@@ -19,7 +19,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        sucursales.listar();
+        sucursales.listar(";");
         sucursales.cantSucursales(sucursales);
     }
 }

@@ -21,9 +21,9 @@ public class Sucursal extends ListaEnlazada<String> {
         System.out.println("Eliminando sucursal");
         return super.remover(ciudad);
     }
-    public void listar() {
+    public void listar(String separador) {
         System.out.println("Listando sucursales");
-        super.listar();
+        super.listar(separador);
     }
 
     public void cantSucursales(Sucursal sucursal) {

@@ -122,10 +122,10 @@ public class ListaEnlazada<T> implements TDALista<T> {
         primero = nuevoNodo;
     }
 
-    public void listar() {
+    public void listar(String separador) {
         Nodo<T> actual=primero;
         while (actual!=null) {
-            System.out.println(actual.getValor());
+            System.out.println(actual.getValor() + separador);
             actual = actual.getSiguiente();
         }
     }
