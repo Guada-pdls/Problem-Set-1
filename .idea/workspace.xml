@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e176e6e-8ed1-4b48-b660-092eb19a9243" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/sucursal/Sucursal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/ListaEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/tda/ListaEnlazada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sucursales.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sucursales.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Sucursal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/sucursal/Sucursal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/ListaEnlazada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/tda/ListaEnlazada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Devolucion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Devolucion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucu/edu/aed/biblioteca/Prestamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/adquisiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/adquisiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adquisiciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adquisiciones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/biblioteca/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/biblioteca/Biblioteca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucu/edu/aed/biblioteca/Catalogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucu/edu/aed/biblioteca/Catalogo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +47,10 @@
     &quot;accountId&quot;: &quot;0d87df46-4810-49ab-bd12-4e6b2a0dc942&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -61,7 +67,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Ej23Joaquin",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,6 +86,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\repositorios\Problem-Set-1" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ucu.edu.aed.biblioteca.Main" />
+      <module name="aed-2026-s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ucu.edu.aed.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

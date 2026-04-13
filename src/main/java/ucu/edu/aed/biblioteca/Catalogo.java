@@ -9,12 +9,16 @@ public class Catalogo extends ListaEnlazada<Libro> {
         libro.setCantEjemplares(libro.getCantEjemplares() + cantidad);
     }
 
-    public boolean prestar(Libro libro) {
-        if (libro.getCantEjemplares() >= 1) {
+    public boolean prestar(Libro libro, int cant) {
+        if (libro.getCantEjemplares() - cant >= 0) {
             libro.setCantEjemplares(libro.getCantEjemplares() - 1);
             return true;
         } else {
             return false;
         }
+    }
+
+    public boolean eliminarLibro(Libro libro) {
+        return this.remover(libro);
     }
 }
